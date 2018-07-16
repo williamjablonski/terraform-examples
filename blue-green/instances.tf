@@ -5,6 +5,7 @@ locals {
     #cloud-config
     runcmd:
     - docker run -d -p 80:80 nginx:latest
+  # - docker run sequenceiq/hadoop-docker:2.7.0
   EOF
 }
 
